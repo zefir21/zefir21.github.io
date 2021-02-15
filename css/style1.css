@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Bad Script', cursive !important;
+	color: #444;
+}
+header div:first-child{
+	display: flex;
+	justify-content: flex-start;
+}
+.logo {
+	width: 100px;
+	height: auto;	
+}
+.nav-item-li {
+	font-weight: bold;
+	font-size: 20px;
+}
+header {
+	background-color: white;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    width: 100%;
+    margin:0 auto;
+    padding: 0px 5% 0px 5%;
+}
+.nav {
+	color: black;
+
+}
+header ul{
+	margin: 0;
+}
+header ul li {
+	display: inline-block;
+	list-style: none;
+	margin:0 20px;
+}
+header ul li a {
+	text-decoration: none !important;
+	color: black !important;
+}
+header ul li a:hover {
+	color: darkred;
+	border-bottom: 2px ridge #000 !important;
+}
+
+header .vk{
+	display: flex;
+}
+header .vk img{
+	width: 2em;
+	height: 2em;
+}
+header .vk img:last-child{
+	margin-left:10px;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+section img{
+width: 100%;
+}
+
+#carousel img{
+    filter: brightness(80%) blur(2px);
+}
+
+.carousel-item p{
+    width: 100%;
+    position: absolute;
+    top:25%;
+    left:0;
+    text-align: center;
+    font-size: 6vw;
+	color:white;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item,
+.carousel-inner img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.carousel-item p:nth-child(3){
+    top:50%;
+    font-size: 4vw;
+}
+.con{
+	display: inline-block;
+	width: 33%;
+}
+.con img{
+	border-radius: 300px;
+	width: 75%;
+}
+
+footer{
+	background-color: white;
+	padding: 2%;
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+}
+
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.color {
+	background-color: antiquewhite;
+}
