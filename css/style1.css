@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Bad Script', cursive !important;
+	font-family: 'Comfortaa', cursive !important;
 	color: #444;
 }
 header div:first-child{
@@ -15,10 +15,10 @@ header div:first-child{
 }
 .nav-item-li {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 20px !important;
 }
 header {
-	background-color: white;
+	background-color: #feecec;
 	height:auto;
 	display: flex;
 	flex-direction: row;
@@ -46,7 +46,6 @@ header ul li a {
 	color: black !important;
 }
 header ul li a:hover {
-	color: darkred;
 	border-bottom: 2px ridge #000 !important;
 }
 
@@ -54,8 +53,8 @@ header .vk{
 	display: flex;
 }
 header .vk img{
-	width: 2em;
-	height: 2em;
+	width: 3em;
+	height: 3em;
 }
 header .vk img:last-child{
 	margin-left:10px;
@@ -66,7 +65,7 @@ section {
     margin: 0 auto;
 }
 section img{
-width: 100%;
+	width: 100%;
 }
 
 #carousel img{
@@ -109,7 +108,7 @@ footer{
 	padding: 2%;
 	text-align: center;
 	color: #000;
-	font-size: 14px;
+	font-size: 14px !important;
 }
 
 .container {
@@ -119,4 +118,40 @@ footer{
 }
 .color {
 	background-color: antiquewhite;
+}
+a.btn {
+	background-color:#d84b6b !important;
+}
+.text-clr {
+	background-color:#feecec !important;
+	padding:10px 0 !important;
+}
+.table {
+	font-size: 18px !important;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #feecec !important;
+}
+.table-o {
+    margin: 0 auto;
+    width: 90%;
+}
+.info-osn img {
+    width: 60%;
+    height: auto;
+}
+.btn-primary, .btn-default  {
+	border-color:#d84b6b !important;
+	font-size: 18px !important;
+}
+.btn-primary:hover, .btn-default:hover  {
+    background-color:#feecec !important;
+	border-color:#d84b6b !important;
+    color: #d84b6b !important;
+
+}
+.fot-cntr {
+	vertical-align: middle;
+	color: magenta ;
+
 }
